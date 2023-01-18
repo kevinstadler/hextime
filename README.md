@@ -30,7 +30,7 @@ char *hexString = printHexTime(timeOfDay, 4);
 * Steffen Eitner maintains the wonderful (if woefully analog) [Konsensuhr](http://www.steffen-eitner.homepage.t-online.de/tempilo/tempkons.htm), alongside some other hexadecimal clocks with more fun digits.
 * The official website of the [International Bureau for hexadecimal metrology](http://hexadecimal.florencetime.net/) contains all information regarding the True Hexadecimal Prime Meridian (through Florence)
 * the Futile Software Corporation also provides an online reference implementation and conversion tool for [Florence Universal Hexadecimal Mean Time](https://thiswasyouridea.com/time/)
-* (Jack Hughes [The Colour Clock](http://thecolourclock.com/) is a fun idea, but sadly the time conversion implementation seems off.)
+* (Jack Hughes' *[The Colour Clock](http://thecolourclock.com/)* is a fun idea, but sadly the time conversion implementation seems off.)
 
 ### License
 
