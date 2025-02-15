@@ -18,7 +18,7 @@ uint32_t fromDayFraction(uint32_t dayFraction);
 uint32_t dayFractionToMs(uint32_t dayFraction);
 
 // extract individual hex digit values, where most significant digit = 0, least significant = 7
-uint8_t hexDigit(uint32_t hexTime, uint8_t digit = 0, uint32_t offset = FLORENCE_MERIDIAN);
+uint8_t hexDigit(uint32_t fraction, uint8_t digit = 0, uint32_t offset = FLORENCE_MERIDIAN, uint8_t basis = 16);
 
 uint8_t sprintHexTime(char *str, uint32_t dayFraction, uint8_t n_digits, uint32_t offset = FLORENCE_MERIDIAN, bool period = true, bool upper = false);
 
